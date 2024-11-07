@@ -1,0 +1,11 @@
+CREATE DATABASE Projeto18;
+USE Projeto18;
+
+CREATE TABLE rgpato(
+   id INT PRIMARY KEY AUTO_INCREMENT,
+   nome VARCHAR(45),
+   peso DOUBLE
+);
+
+SELECT * FROM rgpato;
+DROP TABLE  rgpato;
